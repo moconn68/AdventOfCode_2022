@@ -1,5 +1,5 @@
 {
-  "name": "04",
+  "name": "06",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "clean": "rm -rf ./dist/",
     "build": "tsc",
     "dev": "npm run clean && npm run build && node dist/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev_time": "npm run clean && npm run build && time node dist/main.js"
   },
   "keywords": [],
   "author": "",
